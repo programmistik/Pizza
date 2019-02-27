@@ -259,7 +259,7 @@ namespace HashCodePizza
                     if (ingredients.TryGetValue(key, out value) == false)
                         value = 0;
 
-                    ingredients[key] = value++;
+                    ingredients[key] = value+1;
                 }
 
             return ingredients;
@@ -308,7 +308,7 @@ namespace HashCodePizza
                     newMinRow = newSlice.MaxRow + 1;
                 
                 if (newSlice.MaxRow >= MaxRow) // Below
-                    newMaxRow = newSlice.MaxRow - 1;
+                    newMaxRow = newSlice.MinRow - 1;
             }
 
             if ((newSlice.MinRow <= MinRow) && (newSlice.MaxRow >= MaxRow))
