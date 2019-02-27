@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizza", "Pizza\Pizza.csproj", "{0CE83DBF-94A2-4C24-A6E2-0A3E1C573AD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashCodePizza", "Pizza\HashCodePizza.csproj", "{0CE83DBF-94A2-4C24-A6E2-0A3E1C573AD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
